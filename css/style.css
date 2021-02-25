@@ -1,11 +1,9 @@
 body {
-  max-width: 35em;
-  margin-left: 40px;
   font-family: Charter, "Bitstream Charter", Georgia, serif;
+  margin: 10px 10px;
 }
 
-@media (max-width: 768px) {
-  body {
-    margin-left: 10px;
-  }
+article {
+  max-width: 45em;
+  margin: 12px auto;
 }
