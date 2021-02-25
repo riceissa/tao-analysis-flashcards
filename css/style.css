@@ -3,3 +3,9 @@ body {
   margin-left: 40px;
   font-family: Charter, "Bitstream Charter", Georgia, serif;
 }
+
+@media (max-width: 768px) {
+  body {
+    margin-left: 0;
+  }
+}
