@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+
+    <!-- Change these for each new page -->
+    <link rel="canonical" href="https://riceissa.github.io/tao-analysis-flashcards/sections/2.3.html">
+    <meta property="og:title" content="Section 2.3" />
+    <meta property="og:site_name" content="Tao Analysis Flashcards" />
+    <title>Section 2.3 - Tao Analysis Flashcards</title>
+
+  </head>
+  <body>
+    <nav>
+      <a href="https://riceissa.github.io/tao-analysis-flashcards/">Home</a> | <a href="https://taoanalysis.wordpress.com/">Solutions</a> (external site)
+    </nav>
+    <article>
+      <h1>Section 2.3</h1>
+      <p>Section 2.3 covers multiplication on the natural numbers, and
+      introduces exponentiation.</p>
+      <p>Just one small note: \(0^0\) is sometimes defined to be something other than \(1\) depending on the context.</p>
+      <orbit-reviewarea color="red">
+        <orbit-prompt
+          question="natural numbers: How do we define $0 \times m$?"
+          answer="$0$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="natural numbers: How do we define $(n{{+}\!{+}}) \times m$?"
+          answer="$(n\times m) + m$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="What is the name for the property that says $n \times m = m \times n$?"
+          answer="commutative property (for multiplication)"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="What is the name for the property that says $(a\times b) \times c = a \times (b \times c)$?"
+          answer="associative property (for multiplication)"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="How does Tao define $0^0$?"
+          answer="$1$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If $ac = bc$, can we conclude $a=b$?"
+          answer="No, because $c$ might be $0$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If $ac = bc$ and $c \ne 0$, can we conclude $a=b$?"
+          answer="Yes"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="Suppose $ac = bc$. In order to conclude $a=b$, what must we check first?"
+          answer="We need to make sure $c \ne 0$"
+        ></orbit-prompt>
+      </orbit-reviewarea>
+    </article>
+  </body>
+</html>
