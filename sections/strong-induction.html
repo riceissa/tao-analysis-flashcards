@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+
+    <!-- Change these for each new page -->
+    <link rel="canonical" href="https://riceissa.github.io/tao-analysis-flashcards/sections/strong-induction.html">
+    <meta property="og:title" content="Strong principle of induction" />
+    <meta property="og:site_name" content="Tao Analysis Flashcards" />
+    <title>Strong principle of induction - Tao Analysis Flashcards</title>
+
+  </head>
+  <body>
+    <nav>
+      <a href="https://riceissa.github.io/tao-analysis-flashcards/">Home</a> | <a href="https://taoanalysis.wordpress.com/">Solutions</a> (external site)
+    </nav>
+    <article>
+      <h1>Strong principle of induction</h1>
+      <p>Tao's book states strong induction, asks you to prove it, and makes a
+      small remark about it, but does not otherwise say anything about it. So
+      here we will explore strong induction in a little more depth.</p>
+      <p></p>
+      <orbit-reviewarea color="red" debug>
+        <orbit-prompt
+          question="Why is strong induction logically not any stronger than plain induction?"
+          answer="because plain induction can be used to prove strong induction"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="Why does strong induction not need a base case?"
+          answer=""
+        ></orbit-prompt>
+        <orbit-prompt
+          question="For the variable $m_0$ that appears in the statement of strong induction, what values do we usually use?"
+          answer="$0$ or $1$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="What does the word “strong” in strong induction refer to?"
+          answer="the stronger hypothesis in the inductive step"
+        ></orbit-prompt>
+      </orbit-reviewarea>
+    </article>
+  </body>
+</html>
