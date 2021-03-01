@@ -1,0 +1,5 @@
+- natural numbers: axiomatic vs constructive distinction
+- maybe cloze deletions for remark 2.1.15?
+- what is \mathbf N? A: the set of natural numbers
+- what is meant by circularity? using an advanced fact to prove an elementary one, then using the elementary one to prove the advanced one
+- alternative term for circularity? circular reasoning
