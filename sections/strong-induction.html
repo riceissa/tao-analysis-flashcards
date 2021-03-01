@@ -37,6 +37,11 @@
           question="Why does strong induction not need a base case?"
           answer=""
         ></orbit-prompt>
+        <!--
+          ignoring the m_0 (since we just assume m_0=0 here to make the analogy with plain induction stronger),
+          ∀m [∀ m' < m P(m') → P(m)] → ∀m P(m)
+          For m=0 in the antecedent above, we get ∀m' < 0 P(m') → P(0) i.e. T → P(0) i.e. P(0) so the base case is built in.
+        -->
         <orbit-prompt
           question="For the variable $m_0$ that appears in the statement of strong induction, what values do we usually use?"
           answer="$0$ or $1$"
