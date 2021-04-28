@@ -27,7 +27,7 @@
       <p>Section 3.4 ... .</p>
       <orbit-reviewarea color="red" debug>
         <orbit-prompt
-          question="How do we define the image $f(S)$ of a set under a function?"
+          question="How do we define the image $f(S)$ of a set under a function $f : X \to Y$?"
           answer="$\{f(x) : x \in S\}$"
         ></orbit-prompt>
         <orbit-prompt
@@ -57,6 +57,10 @@
         <orbit-prompt
           question="Let $f: \mathbf Z \to \mathbf Z$ be defined by $f(x) := x^2$. Compute $f^{-1}(\{-1\})$."
           answer="$\emptyset$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="How do we define the inverse image $f^{-1}(S)$ of a set under a function $f : X \to Y$?"
+          answer="$\{x \in X : f(x) \in S\}$"
         ></orbit-prompt>
       </orbit-reviewarea>
     </article>
