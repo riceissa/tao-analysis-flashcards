@@ -25,10 +25,22 @@
     <article>
       <h1>Section 3.5</h1>
       <p>Section 3.5 covers ....</p>
-      <orbit-reviewarea color="red">
+      <orbit-reviewarea color="red" debug>
         <orbit-prompt
-          question=""
-          answer=""
+          question="Are $\{3,5\}$ and $\{5,3\}$ equal?"
+          answer="Yes"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="Are $(3,5)$ and $(5,3)$ equal?"
+          answer="No"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="definition of the Cartesian product $X \times Y$"
+          answer="$\{(x,y) : x \in X, y \in Y\}$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="notation for $n$-fold Cartesian product"
+          answer="$\prod_{1 \leq i \leq n} X_i$ (or $\prod_{i=1}^n X_i$)"
         ></orbit-prompt>
       </orbit-reviewarea>
     </article>
