@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+
+    <!-- Change these for each new page -->
+    <link rel="canonical" href="https://riceissa.github.io/tao-analysis-flashcards/sections/3.6.html">
+    <meta property="og:title" content="Cardinality of sets (3.6)" />
+    <meta property="og:site_name" content="Tao Analysis Flashcards" />
+    <title>Section 3.6 - Tao Analysis Flashcards</title>
+
+  </head>
+  <body>
+    <nav>
+      <a href="https://riceissa.github.io/tao-analysis-flashcards/">Home</a> | <a href="https://riceissa.github.io/tao-analysis-flashcards/about/">About</a> | <a href="https://github.com/riceissa/tao-analysis-flashcards">GitHub</a>
+    </nav>
+    <article>
+      <h1>Section 3.6</h1>
+      <p>Section 3.6 covers ....</p>
+      <orbit-reviewarea color="red" debug>
+        <orbit-prompt
+          question="definition of two sets $X$ and $Y$ having the same cardinality"
+          answer="$X$ and $Y$ have the same cardinality iff there is a bijection $f : X \to Y$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="definition of a set $X$ having $n$ elements"
+          answer="$X$ has $n$ elements iff $X$ has equal cardinality with $\{i \in \mathbf N : 1 \leq i \leq n\}$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="definition of a set $X$ being finite"
+          answer="$X$ is finite iff it has cardinality $n$ for some natural number $n$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="definition of a set $X$ being infinite"
+          answer="$X$ is infinite iff it is not finite (i.e. for each natural number $n$, the set $X$ does _not_ have cardinality $n$)"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="for finite sets $X$ and $Y$, the cardinality of the Cartesian product $X \times Y$"
+          answer="$\#(X) \times \#(Y)$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="for finite sets $X$ and $Y$, the cardinality of the set of functions from $X$ to $Y$"
+          answer="$\#(Y)^{\#(X)}$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="for finite sets $X$ and $Y$, the cardinality of the set of functions from $Y$ to $X$"
+          answer="$\#(X)^{\#(Y)}$"
+        ></orbit-prompt>
+      </orbit-reviewarea>
+    </article>
+  </body>
+</html>
