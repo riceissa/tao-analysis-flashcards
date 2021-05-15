@@ -25,10 +25,22 @@
     <article>
       <h1>Section 4.1</h1>
       <p>Section 4.1 constructs the integers using the natural numbers.</p>
-      <orbit-reviewarea color="red">
+      <orbit-reviewarea color="red" debug>
         <orbit-prompt
-          question=""
-          answer=""
+          question="Why do we define equality on the integers as $a{-}\!{-}b = c{-}\!{-}d$ if and only if $a+d = c+b$?"
+          answer="We use our pre-existing knowledge of how algebra should work to say that $a-b = c-d$ iff $a+d=c+b$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="What's the mnemonic for remembering how addition and multiplication are defined for the integers?"
+          answer="Just imagine the formal subtraction symbol ${-}\!{-}$ is the minus sign $-$ that you are already used to, and evaluate the expression so that it is in the form $x - y$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="How is the negation $-(a{-}!{-}b)$ of an integer defined?"
+          answer="$b{-}\!{-}a$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="How is the subtraction $x-y$ of two integers $x$ and $y$ defined?"
+          answer="$x + (-y)$"
         ></orbit-prompt>
       </orbit-reviewarea>
     </article>
