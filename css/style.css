@@ -1,9 +1,12 @@
 body {
   font-family: Charter, "Bitstream Charter", Georgia, serif;
   margin: 10px 10px;
+  background-color: #a0a0a0;
 }
 
 article {
-  max-width: 45em;
+  max-width: 45rem;
   margin: 12px auto;
+  padding: 50px;
+  background-color: #ffffff;
 }
