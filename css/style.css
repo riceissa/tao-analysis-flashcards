@@ -2,6 +2,7 @@ body {
   font-family: Charter, "Bitstream Charter", Georgia, serif;
   margin: 10px 10px;
   background-color: #a0a0a0;
+  line-height: 1.5;
 }
 
 article {
