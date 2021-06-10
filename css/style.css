@@ -12,6 +12,7 @@ article {
   background-color: #ffffff;
 }
 
+nav { color: #dddddd; }
 nav a { text-decoration: none; }
 nav a:hover, nav a:active { text-decoration: underline; }
 nav a:link { color: #ffffff; }
