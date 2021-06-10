@@ -11,3 +11,6 @@ article {
   padding: 50px;
   background-color: #ffffff;
 }
+
+nav a:link { color: #ffffff; }
+nav a:visited { color: #ffffff; }
