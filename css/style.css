@@ -13,5 +13,6 @@ article {
 }
 
 nav a { text-decoration: none; }
+nav a:hover, nav a:active { text-decoration: underline; }
 nav a:link { color: #ffffff; }
 nav a:visited { color: #ffffff; }
