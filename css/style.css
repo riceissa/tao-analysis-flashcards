@@ -12,5 +12,6 @@ article {
   background-color: #ffffff;
 }
 
+nav a { text-decoration: none; }
 nav a:link { color: #ffffff; }
 nav a:visited { color: #ffffff; }
