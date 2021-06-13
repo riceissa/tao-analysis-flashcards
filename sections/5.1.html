@@ -25,6 +25,7 @@
     <article>
       <h1>Section 5.1</h1>
       <p>Section 5.1 ....</p>
+      <p>The definition of Cauchy sequence has three nested quantifiers ("for every ... there exists ... for every ...") and may seem like an lot. But this definition is so important that I recommend memorizing it fully (but make sure you also understand it!).</p>
       <orbit-reviewarea color="red" debug>
         <orbit-prompt
           question="notation for the set of real numbers"
@@ -33,6 +34,40 @@
         <orbit-prompt
           question="What set of numbers does $\mathbf R$ denote?"
           answer="the real numbers"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="What does it mean for a sequence $(a_n)_{n=0}\infty$ to be a Cauchy sequence? (standard terminology)"
+          answer="for every $\varepsilon > 0$ there exists $N$ such that for all $j,k \geq N$ we have $|a_j - a_k| \leq \varepsilon"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a sequence is finite, is it necessarily bounded?"
+          answer="Yes"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a sequence is bounded, is it necessarily finite?"
+          answer="No"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a sequence is infinite, can it be bounded?"
+          answer="Yes"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a sequence is bounded, can it be infinite?"
+          answer="Yes"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a sequence is Cauchy, is it necessarily bounded?"
+          answer="Yes"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a sequence is bounded, is it necessarily Cauchy?"
+          answer="No"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a sequence is finite, is it necessarily Cauchy?"
+          answer="Yes (given any $\varepsilon > 0$, just pick $N$ as the final index of the sequence; then for all $j,k \geq N$ we have $|a_j - a_k| = |a_N - a_N| = 0 < \varepsilon$)
+
+This turns out to not be a very interesting thought, since the notion of Cauchy sequences was introduced to talk about limits, and limiting behavior is only interesting when there are an infinite number of elements in the sequence. But it is still good practice to test ideas like this even in situations for which they were not originally intended."
         ></orbit-prompt>
       </orbit-reviewarea>
     </article>
