@@ -31,7 +31,23 @@
       <orbit-reviewarea color="red" debug>
         <orbit-prompt
           question="What does it mean for a sequence $(a_n)_{n=0}\infty$ to be $\varepsilon$-steady?"
-          answer=""
+          answer="$a_j$ and $a_k$ are $\varepsilon$-close for all $j,k$ (for all $j,k$ we have $|a_j - a_k| \leq \varepsilon$)"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="For which values of $\varepsilon > 0$ is the sequence $1,0,1,0,1,\ldots$ $\varepsilon$-steady?"
+          answer="any $\varepsilon \geq 1$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="For which values of $\varepsilon > 0$ is the sequence $0.1, 0.01, 0.001, 0.0001, \ldots$ $\varepsilon$-steady?"
+          answer="any $\varepsilon \geq 0.1$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="For which values of $\varepsilon > 0$ is the sequence $1,2,4,8,16 \ldots$ $\varepsilon$-steady?"
+          answer="the sequence is not $\varepsilon$-steady for any value of $\varepsilon $"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="For which values of $\varepsilon > 0$ is the sequence $2,2,2,2,\ldots$ $\varepsilon$-steady?"
+          answer="any $\varepsilon > 0$"
         ></orbit-prompt>
       </orbit-reviewarea>
     </article>
