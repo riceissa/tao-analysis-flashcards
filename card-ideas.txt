@@ -5,3 +5,4 @@
 - alternative term for circularity? circular reasoning
 - after the notion of supremum is introduced, make a card for calculating the values of epsilon for which a sequence is epsilon-steady. i think it's something like D=sup{|a_j - a_k| : j!=k}; if the difference D is positive, it's any epsilon >= D, and if D=0 then it's any positive epsilon.
 - proposition 2.1.16: what do we use it for in the rest of the book? what do we need recursion for? for defining addition and multiplication.
+- once limits are defined, combat interference with cauchy defintion by asking for |a_j - a_k| vs |a_n - L|
