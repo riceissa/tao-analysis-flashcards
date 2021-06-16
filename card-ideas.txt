@@ -6,3 +6,4 @@
 - after the notion of supremum is introduced, make a card for calculating the values of epsilon for which a sequence is epsilon-steady. i think it's something like D=sup{|a_j - a_k| : j!=k}; if the difference D is positive, it's any epsilon >= D, and if D=0 then it's any positive epsilon.
 - proposition 2.1.16: what do we use it for in the rest of the book? what do we need recursion for? for defining addition and multiplication.
 - once limits are defined, combat interference with cauchy defintion by asking for |a_j - a_k| vs |a_n - L|
+- section 8.5: add the stuff about minimal=minimum for totally ordered sets, or something like that? there's maybe a few other "obvious" properties that tao never proves in the book and it took me a long time to realize them.
