@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- MathJax -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
+
+    <!-- Change these for each new page -->
+    <link rel="canonical" href="https://riceissa.github.io/tao-analysis-flashcards/sections/5.3.html">
+    <meta property="og:title" content="The construction of the real numbers (5.3)" />
+    <meta property="og:site_name" content="Tao Analysis Flashcards" />
+    <title>Section 5.3 - Tao Analysis Flashcards</title>
+
+  </head>
+  <body>
+    <nav>
+      <a href="https://riceissa.github.io/tao-analysis-flashcards/">Home</a> | <a href="https://riceissa.github.io/tao-analysis-flashcards/about/">About</a> | <a href="https://github.com/riceissa/tao-analysis-flashcards">GitHub</a>
+    </nav>
+    <article>
+      <h1>Section 5.3</h1>
+      <p>Section 5.3 ....</p>
+      <orbit-reviewarea color="red" debug>
+        <orbit-prompt
+          question="How can you remember how addition and multiplication are defined on the real numbers?"
+          answer="the formal limits commute with the respective operations on the rational numbers: $(\mathrm{LIM}_{n\to\infty} a_n) + (\mathrm{LIM}_{n\to\infty} b_n) = \mathrm{LIM}_{n\to\infty} (a_n + b_n)$ and $(\mathrm{LIM}_{n\to\infty} a_n) (\mathrm{LIM}_{n\to\infty} b_n) = \mathrm{LIM}_{n\to\infty} (a_n b_n)$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="Why did we need to introduce the idea of a sequence being bounded away from zero?"
+          answer="[there are two answers here: to define reciprocation, and then the more specific reasons of a sequence converging to zero or containing zero elements; how can i distinguish these and ask for them separately?]"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a sequence $(a_n)_{n=1}^\infty$ is such that $|a_n| > 0$ for all $n \geq 1$, why might it still not be bounded away from zero?"
+          answer="The sequence might be getting closer and closer to zero despite the elements being positive: $0.1, 0.01, 0.001, 0.0001, \ldots$"
+        ></orbit-prompt>
+      </orbit-reviewarea>
+    </article>
+  </body>
+</html>
