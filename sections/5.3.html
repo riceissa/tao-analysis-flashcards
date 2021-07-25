@@ -31,8 +31,16 @@
           answer="the formal limits commute with the respective operations on the rational numbers: $(\mathrm{LIM}_{n\to\infty} a_n) + (\mathrm{LIM}_{n\to\infty} b_n) = \mathrm{LIM}_{n\to\infty} (a_n + b_n)$ and $(\mathrm{LIM}_{n\to\infty} a_n) (\mathrm{LIM}_{n\to\infty} b_n) = \mathrm{LIM}_{n\to\infty} (a_n b_n)$"
         ></orbit-prompt>
         <orbit-prompt
-          question="Why did we need to introduce the idea of a sequence being bounded away from zero?"
-          answer="[there are two answers here: to define reciprocation, and then the more specific reasons of a sequence converging to zero or containing zero elements; how can i distinguish these and ask for them separately?]"
+          question="When defining which arithmetic operation did we need to introduce the idea of a sequence being bounded away from zero?"
+          answer="reciprocation: $x \mapsto x^{-1}$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a Cauchy sequence of rationals $(a_n)_{n=1}^\infty$ is not converging to zero, why might the reciprocal sequence $(a_n^{-1})_{n=1}^\infty$ still be undefined?"
+          answer="the sequence might contain zero elements, like $0, 0.9, 0.99, 0.999, 0.9999, \ldots$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If a Cauchy sequence of rationals $(a_n)_{n=1}^\infty$ does not contain zero elements, why might the reciprocal sequence $(a_n^{-1})_{n=1}^\infty$ still not be Cauchy?"
+          answer="The reciprocal sequence might be growing unboundedly as the original sequence gets smaller and smaller: the reciprocal sequence of $0.1, 0.01, 0.001, 0.0001, \ldots$ is $10, 100, 1000, 10000, \ldots$, which is not Cauchy"
         ></orbit-prompt>
         <orbit-prompt
           question="If a sequence $(a_n)_{n=1}^\infty$ is such that $|a_n| > 0$ for all $n \geq 1$, why might it still not be bounded away from zero?"
