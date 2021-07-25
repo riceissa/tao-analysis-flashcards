@@ -36,6 +36,22 @@
           question="What is the motivation for defining equivalent sequences?"
           answer="We want to know when two real numbers are equal without saying what a real number is or assuming we have access to the real numbers"
         ></orbit-prompt>
+        <orbit-prompt
+          question="Are the two sequences $1.1, 1.01, 1.001, 1.0001, \ldots$ and $0.9, 0.99, 0.999, 0.9999, \ldots$ equivalent?"
+          answer="Yes"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="Are the two sequences $1, 1/2, 1/3, 1/4, 1/5, \ldots$ and $1, 1/2, 1/4, 1/8, 1/16, \ldots$ equivalent?"
+          answer="Yes"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="Are the two sequences $1, 2, 3, 4, 5, \ldots$ and $1, 2, 4, 8, 16, \ldots$ equivalent?"
+          answer="No (even though both sequences are blowing up to infinity, the gaps between the terms is not shrinking over time, so they are not considered equivalent)"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="Are the two sequences $0.1, 0.01, 0.001, 0.0001, \ldots$ and $0.9, 0.99, 0.999, 0.9999, \ldots$ equivalent?"
+          answer="No (one of them is “converging” to $0$ while the other is “converging” to $1$)"
+        ></orbit-prompt>
       </orbit-reviewarea>
     </article>
   </body>
