@@ -24,7 +24,7 @@
     </nav>
     <article>
       <h1>Section 5.3</h1>
-      <p>Section 5.3 ....</p>
+      <p>Section 5.3 defines the real numbers as formal limits of Cauchy sequences of rationals, and then defines the usual arithmetic operations on the reals (addition, multiplication, negation, subtraction, reciprocation, and division).</p>
       <orbit-reviewarea color="red" debug>
         <orbit-prompt
           question="notation for the set of real numbers"
@@ -43,6 +43,18 @@
           answer="the formal limits commute with the respective operations on the rational numbers: $(\mathrm{LIM}_{n\to\infty} a_n) + (\mathrm{LIM}_{n\to\infty} b_n) = \mathrm{LIM}_{n\to\infty} (a_n + b_n)$ and $(\mathrm{LIM}_{n\to\infty} a_n) (\mathrm{LIM}_{n\to\infty} b_n) = \mathrm{LIM}_{n\to\infty} (a_n b_n)$"
         ></orbit-prompt>
         <orbit-prompt
+          question="If we have a rational number $q$, what real number does $q$ correspond to, when written in the formal limit notation?"
+          answer="$\mathrm{LIM}_{n\to\infty} q$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="How do we define the negation $-x$ for the real number $x$?"
+          answer="$(-1) \times x$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="How do we define the subtraction $x-y$ for two real numbers $x$ and $y$?"
+          answer="$x + (-y)$"
+        ></orbit-prompt>
+        <orbit-prompt
           question="When defining which arithmetic operation did we need to introduce the idea of a sequence being bounded away from zero?"
           answer="reciprocation: $x \mapsto x^{-1}$"
         ></orbit-prompt>
@@ -57,6 +69,14 @@
         <orbit-prompt
           question="If a sequence $(a_n)_{n=1}^\infty$ is such that $|a_n| > 0$ for all $n \geq 1$, why might it still not be bounded away from zero?"
           answer="The sequence might be getting closer and closer to zero despite the elements being positive: $0.1, 0.01, 0.001, 0.0001, \ldots$"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="If $x\ne 0$ is a real number, how do we define the reciprocal $x^{-1}$?"
+          answer="We find some Cauchy sequence that is both bounded away from zero and such that its formal limit is equal to $x$, and then take the reciprocal sequence"
+        ></orbit-prompt>
+        <orbit-prompt
+          question="How do we define the division $x/y$ for two real numbers $x$ and $y$ (where $y\ne 0$)?"
+          answer="$x \times y^{-1}$"
         ></orbit-prompt>
       </orbit-reviewarea>
     </article>
