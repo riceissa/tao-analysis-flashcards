@@ -9,3 +9,4 @@
 - section 8.5: add the stuff about minimal=minimum for totally ordered sets, or something like that? there's maybe a few other "obvious" properties that tao never proves in the book and it took me a long time to realize them.
 - there's a proposition in the book that uses M and epsilon (archimedes principle?) and what's interesting is that even though both numbers (as well as the x) are positive numbers, the hard part is when epsilon is small and correspondingly M has to be large. So show the reason why it is "harder" to show this for smaller epsilon, and hence why the epsilon variable is justified.
 - axiom of regularity: why can't we just say that no set can contain itself? doesn't that solve all pathologies? answer: there are also other pathological sets like infinite onion sets (nested sequence of sets that never end), which the axiom of regularity also prevents.
+- 5.3 booster: definition of bounded away from zero? examples of bounded away from zero?
